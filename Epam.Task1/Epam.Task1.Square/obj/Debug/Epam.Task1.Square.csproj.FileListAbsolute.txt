@@ -1,0 +1,6 @@
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.Square\bin\Debug\Epam.Task1.Square.exe.config
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.Square\bin\Debug\Epam.Task1.Square.exe
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.Square\bin\Debug\Epam.Task1.Square.pdb
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.Square\obj\Debug\Epam.Task1.Square.csproj.CoreCompileInputs.cache
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.Square\obj\Debug\Epam.Task1.Square.exe
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.Square\obj\Debug\Epam.Task1.Square.pdb

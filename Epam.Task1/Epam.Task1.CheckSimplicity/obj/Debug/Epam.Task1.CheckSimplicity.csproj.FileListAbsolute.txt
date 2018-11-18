@@ -1,0 +1,7 @@
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\bin\Debug\Epam.Task1.CheckSimplicity.exe.config
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\bin\Debug\Epam.Task1.CheckSimplicity.exe
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\bin\Debug\Epam.Task1.CheckSimplicity.pdb
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\obj\Debug\Epam.Task1.CheckSimplicity.csprojResolveAssemblyReference.cache
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\obj\Debug\Epam.Task1.CheckSimplicity.csproj.CoreCompileInputs.cache
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\obj\Debug\Epam.Task1.CheckSimplicity.exe
+C:\Users\Мария\source\repos\Epam.Task1\Epam.Task1.CheckSimplicity\obj\Debug\Epam.Task1.CheckSimplicity.pdb

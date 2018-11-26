@@ -14,12 +14,12 @@ namespace Epam.Task01._2.Triangle
         }
         static void DrawTriangle()
         {
-            Console.WriteLine("Введите число n");
-            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter N: ");
+            int n = int.Parse(Console.ReadLine());
             for (int i = 1; i < n+1; i++)
             {
                 for (int j = 0; j < i; j++)
-                {
+                { 
                     Console.Write("*");
                 }
                 Console.WriteLine();

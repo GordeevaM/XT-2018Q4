@@ -19,9 +19,9 @@ namespace Epam.Task01._10._2DArray
                     arr[i, j] = r.Next(-10, 10);
                 }
             }
-            Console.WriteLine("Исходный массив:");
+            Console.WriteLine("Your array:");
             ShowArray(arr);
-            Console.WriteLine("Сумма элементов, стоящих на четных позициях: {0}", SumOddElems(arr));
+            Console.WriteLine("Sum of the even elements: {0}", SumEvenElems(arr));
         }
         static void ShowArray(int[,] a)
         {
@@ -34,7 +34,7 @@ namespace Epam.Task01._10._2DArray
                 Console.WriteLine();
             }
         }
-        static int SumOddElems(int[,] a)
+        static int SumEvenElems(int[,] a)
         {
             int sum = 0;
             for (int i = 0; i < a.GetLength(0); i++)

@@ -10,19 +10,19 @@ namespace Epam.Task1.CheckSimplicity
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите положительное число");
-            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter a positive number:");
+            int n = int.Parse(Console.ReadLine());
             if (IfSimple(n))
             {
-                Console.WriteLine("Число {0} является простым", n);
+                Console.WriteLine("{0} is a prime number", n);
             }
-            else Console.WriteLine("Число {0} не является простым", n);
+            else Console.WriteLine("{0} is NOT a prime number", n);
         }
         public static bool IfSimple(int N)
         {
             for (int i = 2; i < N; i++)
             {
-                if (N%i==0)
+                if (N % i == 0)
                 {
                     return false;
                 }

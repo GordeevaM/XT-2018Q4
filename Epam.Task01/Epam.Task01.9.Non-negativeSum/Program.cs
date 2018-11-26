@@ -16,9 +16,9 @@ namespace Epam.Task01._9.Non_negativeSum
             {
                 arr[i] = r.Next(-10, 10);
             }
-            Console.WriteLine("Ваш массив:");
+            Console.WriteLine("Your array:");
             ShowArray(arr);
-            Console.WriteLine("Сумма неотрицательных элементов: {0}", PositiveSum(arr));
+            Console.WriteLine("Sum of the positive elements: {0}", PositiveSum(arr));
         }
         static void ShowArray(int[] a)
         {

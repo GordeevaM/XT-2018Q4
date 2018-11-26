@@ -14,8 +14,8 @@ namespace Epam.Task01._3.AnotherTriangle
         }
         static void DrawTriangle()
         {
-            Console.WriteLine("Введите число n");
-            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter N: ");
+            int n = int.Parse(Console.ReadLine());
             int spaces = n - 1;
             for (int i = 1; i < n + 1; i++)
             {

@@ -10,8 +10,8 @@ namespace Epam.Task1.Square
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите положительное нечётное число");
-            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter an uneven positive number:");
+            int n = int.Parse(Console.ReadLine());
             DrawSquare(n);
         }
         public static void DrawSquare(int N)
@@ -20,11 +20,11 @@ namespace Epam.Task1.Square
             {
                 for (int j = 0; j < N; j++)
                 {
-                    if ((i==j)&&(i==N/2))
+                    if ((i == j) && (i == N / 2))
                     {
-                        Console.Write(" ");
+                        Console.Write(' ');
                     }
-                    else Console.Write("*");
+                    else Console.Write('*');
                 }
                 Console.WriteLine();
             }

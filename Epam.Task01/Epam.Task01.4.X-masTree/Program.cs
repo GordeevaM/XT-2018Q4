@@ -14,7 +14,7 @@ namespace Epam.Task01._4.X_masTree
         }
         static void DrawTree()
         {
-            Console.WriteLine("Введите число n");
+            Console.WriteLine("Enter N: ");
             int n = Convert.ToInt32(Console.ReadLine());
             for (int a = 0; a < n; a++)
             {

@@ -10,7 +10,7 @@ namespace Epam.Task01._5.SumOfNumbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Сумма таких чисел равна {0}", SumOfNums());
+            Console.WriteLine("Sum = {0}", SumOfNums());
         }
         static int SumOfNums()
         {

@@ -10,7 +10,7 @@ namespace Epam.Task01._11.AverageStringLength
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите строку");
+            Console.WriteLine("Enter your string: ");
             string str = Console.ReadLine();
             string[] words = str.Split(' ');
             int numberOfWords = words.Count();
@@ -32,7 +32,8 @@ namespace Epam.Task01._11.AverageStringLength
                 }
                 else sum += letters;
             }
-            Console.WriteLine("Среднее число букв в словах - {0}", sum / numberOfWords);
+
+            Console.WriteLine("Average number of letters - {0}", sum / numberOfWords);
         }
     }
 }

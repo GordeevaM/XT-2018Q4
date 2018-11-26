@@ -22,10 +22,10 @@ namespace Epam.Task01._8.NoPositive
                     }
                 }
             }
-            Console.WriteLine("Исходный массив:");
+            Console.WriteLine("Your array:");
             ShowArray(arr);
             NoPositive(arr);
-            Console.WriteLine("Массив без положительных чисел:");
+            Console.WriteLine("Non-positive array:");
             ShowArray(arr);
         }
         static void ShowArray(int[,,] a)

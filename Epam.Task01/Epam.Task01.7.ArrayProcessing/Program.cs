@@ -16,11 +16,11 @@ namespace Epam.Task01._7.ArrayProcessing
             {
                 arr[i] = r.Next(100);
             }
-            Console.WriteLine("Ваш массив:");
+            Console.WriteLine("Your array:");
             ShowArray(arr);
-            Console.WriteLine("Максимальный элемент: {0}", FindMax(arr));
-            Console.WriteLine("Минимальный элемент: {0}", FindMin(arr));
-            Console.WriteLine("Отсортированный массив: ");
+            Console.WriteLine("Max element: {0}", FindMax(arr));
+            Console.WriteLine("Min element: {0}", FindMin(arr));
+            Console.WriteLine("Sorted atrray: ");
             SortArray(arr);
             ShowArray(arr);
         }

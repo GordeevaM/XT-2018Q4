@@ -10,9 +10,9 @@ namespace Epam.Task01._12.CharDoubler
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите первую строку: ");
+            Console.Write("Enter your first string: ");
             string str1 = Console.ReadLine();
-            Console.Write("Введите вторую строку: ");
+            Console.Write("Enter your second string: ");
             string str2 = Console.ReadLine();
             char[] chars1 = str1.ToCharArray();
             char[] newString = new char[str1.Length * 2];

@@ -1,7 +1,0 @@
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\bin\Debug\Sequence.exe.config
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\bin\Debug\Sequence.exe
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\bin\Debug\Sequence.pdb
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\obj\Debug\Epam.Task1.Sequence.csproj.CoreCompileInputs.cache
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\obj\Debug\Sequence.exe
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\obj\Debug\Sequence.pdb
-C:\Users\Мария\source\repos\Epam.Task1\Sequence\obj\Debug\Epam.Task1.Sequence.csprojResolveAssemblyReference.cache

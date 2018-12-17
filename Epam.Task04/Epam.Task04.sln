@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task04.1.CustomSort", "Epam.Task04.1.CustomSort\Epam.Task04.1.CustomSort.csproj", "{88FD5FF5-D6E1-4363-BC9B-EDCE493E20EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task04.4.NumberArraySum", "Epam.Task04.4.NumberArraySum\Epam.Task04.4.NumberArraySum.csproj", "{D2201234-4A6F-4932-B54F-377C679B28E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task04.5.StringExtention", "Epam.Task04.5.StringExtention\Epam.Task04.5.StringExtention.csproj", "{76BC1832-F14E-418A-B612-6BA81856B92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task04.3.SortingModule", "Epam.Task04.3.SortingModule\Epam.Task04.3.SortingModule.csproj", "{C22864F7-D539-4498-9502-AC0AC18150B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task04.6.ISeekYou", "Epam.Task04.6.ISeekYou\Epam.Task04.6.ISeekYou.csproj", "{78CD3B5B-4735-40B8-9151-163DD1F9A349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88FD5FF5-D6E1-4363-BC9B-EDCE493E20EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FD5FF5-D6E1-4363-BC9B-EDCE493E20EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FD5FF5-D6E1-4363-BC9B-EDCE493E20EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FD5FF5-D6E1-4363-BC9B-EDCE493E20EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2201234-4A6F-4932-B54F-377C679B28E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2201234-4A6F-4932-B54F-377C679B28E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2201234-4A6F-4932-B54F-377C679B28E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2201234-4A6F-4932-B54F-377C679B28E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BC1832-F14E-418A-B612-6BA81856B92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BC1832-F14E-418A-B612-6BA81856B92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BC1832-F14E-418A-B612-6BA81856B92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BC1832-F14E-418A-B612-6BA81856B92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22864F7-D539-4498-9502-AC0AC18150B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22864F7-D539-4498-9502-AC0AC18150B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22864F7-D539-4498-9502-AC0AC18150B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22864F7-D539-4498-9502-AC0AC18150B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CD3B5B-4735-40B8-9151-163DD1F9A349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CD3B5B-4735-40B8-9151-163DD1F9A349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CD3B5B-4735-40B8-9151-163DD1F9A349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CD3B5B-4735-40B8-9151-163DD1F9A349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D95D7FC0-A784-4DD9-AEC8-ADBE20CE3F97}
+	EndGlobalSection
+EndGlobal

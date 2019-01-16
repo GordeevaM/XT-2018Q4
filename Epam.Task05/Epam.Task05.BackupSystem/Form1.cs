@@ -13,6 +13,8 @@ namespace Epam.Task05.BackupSystem
 {
     public partial class Form1 : Form
     {
+        Monitoring mon = new Monitoring(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MyFolder"));
+
         public Form1()
         {
             InitializeComponent();
@@ -31,18 +33,20 @@ namespace Epam.Task05.BackupSystem
         private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
         {
             dateTimePicker1.Enabled = false;
-            Monitoring mon = new Monitoring(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "MyFolder"));
+            mon.Start();
         }
 
         private void RollbackRadioButton_CheckedChanged(object sender, EventArgs e)
         {
+            mon.Stop();
             dateTimePicker1.Enabled = true;
             Rollback rb = new Rollback(dateTimePicker1.Value);
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-
+            Rollback rb = new Rollback(dateTimePicker1.Value);
+            rb.MakeCopy();
         }
     }
 }

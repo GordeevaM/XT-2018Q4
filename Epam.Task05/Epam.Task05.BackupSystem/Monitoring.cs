@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -36,11 +37,20 @@ namespace Epam.Task05.BackupSystem
                     byte[] array = Encoding.Default.GetBytes(DateTime.Now + ": " + "File: " + e.FullPath + " " + e.ChangeType);
                     fstream.Write(array, 0, array.Length);
                     MessageBox.Show("File: " + e.FullPath + " was " + e.ChangeType);
-                    fstream.Close();
-                    string fileName = e.FullPath + DateTime.Now.ToShortTimeString();
-                    File.Copy(e.FullPath, Path.Combine(AppDomain.CurrentDomain.BaseDirectory, fileName ), true);
                 }
+
+                fstream.Close();
+                File.Copy(e.FullPath, Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"Storage\" , DateTime.Now.ToString("HH-mm.dd-MM-yy") + ".txt"), true);
             }
+        }
+        public void Stop()
+        {
+            watcher.EnableRaisingEvents = false;
+        }
+
+        public void Start()
+        {
+            watcher.EnableRaisingEvents = true;
         }
     }
 }

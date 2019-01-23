@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h2{
+    -webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+    position: absolute;
+    left: 14%;
+    top: 10px;
+    color: orange;
+    background-color: black;
+    padding: 5px 27px 5px 20px;
+    margin-top: 10px;
+    border-top: width
+}
+p{
+    border:  5px white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 40px;
+    width: 70%;
+    border-radius: 0px 0px 10px 10px;
+    background:linear-gradient(white,rgb(185, 184, 184) );
+}

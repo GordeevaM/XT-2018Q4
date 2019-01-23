@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(68, 67, 67);
+    color:black;
+    text-align: center;
+}
+.products{
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    width: 620px;
+}
+span{
+    margin: auto;
+    display: inline-block;
+    width: 200px;
+    border: 2px black;
+    border-left: 1px solid #d9d9d9;
+    
+}
+.virtualHosting{
+    border: none;
+}
+.button{
+    color: white;
+    background: rgb(255, 115, 0);
+    padding: 7px;
+    border-radius: 5px;
+    border-color: rgb(255, 115, 0);
+}
+.cloud{
+    background: #fff;
+    overflow: hidden;
+    width: 602px;
+    background: #fff;
+    box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: auto;
+}
+.image{
+    width: 61px; height: 42px;
+    background: url(image.png) no-repeat;
+    margin: auto;
+}
+.cloudHosting{
+    background-position: 0 -42px;
+}
+.server{
+    background-position: 0 -84px;
+}
+}
+h3{
+    color: rgb(255, 115, 0);
+    text-decoration: bold;
+}

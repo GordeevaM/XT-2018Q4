@@ -1,0 +1,16 @@
+h3{
+    background-color: rgb(46, 150, 127);
+    color: white;
+    width: 400px;
+    padding: 10px;
+    position: relative;
+    font-weight: normal;
+}
+p{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: rgb(219, 230, 233);
+    width: 370px;
+    padding: 10px;
+}

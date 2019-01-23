@@ -1,0 +1,17 @@
+
+nav{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    background-color: hsla(49, 73%, 71%, 0.678);
+    color: rgb(145, 21, 21);
+    box-shadow: 5px 5px 0 0;
+}
+ul{
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
+}
+li{
+	margin: 5px;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(49, 48, 48);
+    box-sizing: border-box;
+}
+.equalizer{
+    
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+} 
+.col{
+    border-radius: 5px 5px 0 0;
+    background: repeating-linear-gradient(180deg, transparent, transparent 18px, #333333 18px, #333333 20px),  linear-gradient(180deg, #FFCD55, #FF8D02);
+    flex:  30 10 100px;
+    margin: 10px;
+}
+.first{
+    height: 100px;
+}
+.second{
+    height: 40px;
+}
+.third{
+    height: 160px;
+}
+.forth{
+    height: 200px;
+}
+.fifth{
+    height: 100px;
+}
+.sixth{
+    height: 60px;
+}

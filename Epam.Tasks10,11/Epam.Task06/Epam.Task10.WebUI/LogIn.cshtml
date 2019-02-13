@@ -1,0 +1,26 @@
+﻿@if (IsPost)
+{
+    var user = Request["UserName"];
+    var password = Request["Password"];
+
+    if (user.StartsWith("!")&&(password.StartsWith("1")))
+    {
+        FormsAuthentication.SetAuthCookie(user, createPersistentCookie: true);
+    }
+    else
+    {
+        <p>
+            Please, check your user name and password ans try again
+        </p>
+        Response.Redirect("~/LogIn.cshtml");
+    }
+    Response.Redirect("~");
+    return;
+}
+<form action="~/LogIn.cshtml" method="post">
+    <label for="UserName">User name</label>
+    <input type="text" name="UserName" />
+    <label for="password">Password</label>
+    <input type="password" name="Password" />
+    <button type="submit">Log In</button>
+</form>

@@ -2,26 +2,21 @@
     Layout = "~/_Layout.cshtml";
     PageData["Title"] = "Index";
 }
-<div id="allUsers">
+<div id="allUsers" style="display:none;">
     <p>Users</p>
     @foreach (var user in global_asax.ShowUsers())
     {
     <p>@user</p>;
     }
 </div>
-<div id="allAwards">
+<div id="allAwards" style="display:none;">
     <p>Awards of the 1st user</p>
     @foreach (var award in global_asax.ShowUsersAwards(1))
     {
         <p>@award</p>;
     }
 </div>
-<div hidden>
-    <button type="submit" id="allUsers" onclick="openUsers()">Show all users</button>
-    <button type="submit" name="allAwards">Show all awards</button>
+<div>
+    <a href="~/UsersList.cshtml">Show all users</a>
+    <a href="~/AwardsList.cshtml">Show all awards</a>
 </div>
-<script type="text/javascript">
-    function openUsers() {
-        document.getElementById('allUsers').style.display = 'true';
-    }
-</script>

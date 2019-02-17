@@ -2,7 +2,7 @@
 
 <html>
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width"/>
     <title>@Page.Title</title>
 </head>
 <body>
@@ -19,11 +19,11 @@
                     <p>User</p>
                 }
                 <p>User name: @User.Identity.Name</p>
-                <a href="~/LogOut.cshtml">LogOut</a>
+                <a href="LogOut.cshtml">LogOut</a>
             }
             else
             {
-                <a href = "~/LogIn.cshtml">LogIn</a>
+                <a href = "LogIn.cshtml">LogIn</a>
             }
             @RenderBody()
         </div>

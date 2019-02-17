@@ -1,0 +1,28 @@
+﻿
+@{
+    Layout = "~/_Layout.cshtml";
+    PageData["Title"] = "Add user";
+}
+
+<div>
+    <p>New user</p>
+    <form action="~/index.cshtml" method="post" id="addUserForm">
+        <label for="name">First Name</label>
+        <input type="text" id="name" />
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" />
+
+        <button type="submit">Add user</button>
+    </form>
+
+    @*@global_asax.AddUser(this.Html.)*@
+    <a href="~/index.cshtml">Home Page</a>
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    //$("submit").click(function () {
+    //    $.ajax({
+    //        data: {firstName: }
+    //    })
+    //});
+</script>

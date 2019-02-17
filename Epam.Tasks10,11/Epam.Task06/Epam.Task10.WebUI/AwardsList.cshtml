@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/_Layout.cshtml";
+    PageData["Title"] = "Awards";
+}
+
+<div>
+    <p>Users</p>
+    @foreach (var award in global_asax.ShowAwards())
+    {
+        <p>@award</p>;
+    }
+    <a href="~/index.cshtml">Home Page</a>
+</div>

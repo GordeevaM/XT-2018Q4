@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/_Layout.cshtml";
+    PageData["Title"] = "Users";
+}
+
+<div id="allUsers">
+    <p>Users</p>
+    @foreach (var user in global_asax.ShowUsers())
+    {
+        <p>@user</p>;
+    }
+    <a href="~/index.cshtml">Home Page</a>
+</div>
+

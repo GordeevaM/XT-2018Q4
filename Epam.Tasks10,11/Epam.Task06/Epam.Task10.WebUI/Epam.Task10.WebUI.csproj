@@ -90,9 +90,11 @@
     <Content Include="Global.asax" />
     <Content Include="index.cshtml" />
     <Content Include="About.cshtml" />
+    <Content Include="AwardsList.cshtml" />
     <None Include="packages.config" />
     <Content Include="LogOut.cshtml" />
     <Content Include="LogIn.cshtml" />
+    <Content Include="UsersList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -100,6 +102,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="_Layout.cshtml" />
+    <Content Include="_AddUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config">

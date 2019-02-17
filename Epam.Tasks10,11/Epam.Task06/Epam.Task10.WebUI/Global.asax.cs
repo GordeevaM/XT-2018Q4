@@ -15,7 +15,7 @@ namespace Epam.Task10.WebUI
         protected static IUserLogic userLogic = DependencyResolver.UserLogic;
         protected static IAwardLogic awardLogic = DependencyResolver.AwardLogic;
 
-        private static void AddUser(string name, string lastName, DateTime dateOfBirth)
+        public static void AddUser(string name, string lastName, DateTime dateOfBirth)
         {
             var user = new User
             {
@@ -26,7 +26,7 @@ namespace Epam.Task10.WebUI
             userLogic.Add(user);
         }
 
-        private static void AddAward(string title)
+        public static void AddAward(string title)
         {
             var award = new Award
             {
@@ -35,12 +35,12 @@ namespace Epam.Task10.WebUI
             awardLogic.Add(award);
         }
 
-        private static void AddAwardToUser(int userId, int awardId)
+        public static void AddAwardToUser(int userId, int awardId)
         {
             userLogic.AddAward(userId, awardId);
         }
 
-        private static List<Award> ShowAwards()
+        public static List<Award> ShowAwards()
         {
             List<Award> awards = new List<Award>();
             foreach (var award in awardLogic.GetAll())
